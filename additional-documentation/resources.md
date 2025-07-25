@@ -27,6 +27,10 @@ This section lists useful resources to be used during development.
 - [ISO Base Media File Format](https://www.loc.gov/preservation/digital/formats/fdd/fdd000079.shtml)
 - [libheif](https://github.com/strukturag/libheif)
 
+## MOV/QT
+- [Movie Atoms Structure](https://developer.apple.com/documentation/quicktime-file-format/movie_atoms)
+- [File Structure of MOV Files](https://docs.fileformat.com/video/mov/#file-structure-of-mov-files)
+
 ## Compression
 - [DEFLATE/INFLATE](https://www.w3.org/TR/PNG-Compression.html)
 - [Implementing zlib.decompress()](https://pyokagan.name/blog/2019-10-18-zlibinflate/)
@@ -36,5 +40,5 @@ This section lists useful resources to be used during development.
 
 ## Related projects
 - [exifsd](https://github.com/vadixidav/exifsd)
-- [exif-rs](https://github.com/kamadak/exif-rs/blob/master/src/tag.rs) 
+- [exif-rs](https://github.com/kamadak/exif-rs/blob/master/src/tag.rs)
 - [exiv2](https://exiv2.org/book/)

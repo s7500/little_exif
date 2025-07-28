@@ -1,4 +1,5 @@
 mod fourcc_constants;
+pub mod iterator;
 mod metadata_trait;
 mod video_tag;
 use crate::{
@@ -344,5 +345,9 @@ impl VideoAtomContainer {
                MVHD | // 'mvhd'
                TRAK // 'trak'
         )
+    }
+
+    fn get_tags(&self) -> &Vec<VideoTag> {
+        &self.tags
     }
 }
